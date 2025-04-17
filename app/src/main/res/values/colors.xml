@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#E0F7FA</color>     <!-- Light Cyan (bluish white) -->
+    <color name="colorPrimary1">#81D4FA</color>    <!-- Light Blue -->
+    <color name="colorPrimary2">#B3E5FC</color>    <!-- Very light blue -->
+
+    <!-- Dark Primary Colors -->
+    <color name="colorPrimaryDark">#0288D1</color> <!-- Strong medium blue -->
+    <color name="colorPrimaryDark1">#01579B</color> <!-- Dark blue -->
+    <color name="colorPrimaryDark2">#263238</color> <!-- Blue-gray (soft near-black alternative) -->
+
+    <!-- Accent Colors -->
+    <color name="colorAccent">#4FC3F7</color>      <!-- Soft accent blue -->
+    <color name="colorAccent1">#40C4FF</color>     <!-- Bright cyan -->
+    <color name="colorAccent2">#80DEEA</color>     <!-- Light teal for contrast -->
+
+    <!-- Neutrals -->
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#F5F5F5</color>         <!-- Slightly softer white -->
+
+</resources>
