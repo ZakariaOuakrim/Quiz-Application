@@ -18,6 +18,7 @@
         app:civ_border_width="6dp"
         />
     <TextView
+        android:id="@+id/scoreid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="votre score est : "
