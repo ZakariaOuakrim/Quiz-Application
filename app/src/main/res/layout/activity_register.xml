@@ -23,7 +23,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Username"
+            android:inputType="text"
+            android:textStyle="bold" />
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"

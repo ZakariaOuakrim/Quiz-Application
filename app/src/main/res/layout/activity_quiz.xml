@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/textViewQuestionNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark2"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark2"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/quiz"/>
+</LinearLayout>
